@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DF8B0131FBD243B00D38F4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B0121FBD243B00D38F4C /* AppDelegate.swift */; };
+		2DF8B0151FBD243B00D38F4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B0141FBD243B00D38F4C /* ViewController.swift */; };
+		2DF8B0181FBD243B00D38F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8B0161FBD243B00D38F4C /* Main.storyboard */; };
+		2DF8B01A1FBD243B00D38F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8B0191FBD243B00D38F4C /* Assets.xcassets */; };
+		2DF8B01D1FBD243B00D38F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8B01B1FBD243B00D38F4C /* LaunchScreen.storyboard */; };
+		2DF8B0281FBD243B00D38F4C /* ceshi2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B0271FBD243B00D38F4C /* ceshi2Tests.swift */; };
+		2DF8B0331FBD243B00D38F4C /* ceshi2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B0321FBD243B00D38F4C /* ceshi2UITests.swift */; };
+		2DF8B05C1FBD248200D38F4C /* CLComposeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B0451FBD248200D38F4C /* CLComposeView.m */; };
+		2DF8B05D1FBD248200D38F4C /* CLEmoticonPaopaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B04A1FBD248200D38F4C /* CLEmoticonPaopaoView.m */; };
+		2DF8B05E1FBD248200D38F4C /* CLEmoticonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B04B1FBD248200D38F4C /* CLEmoticonButton.m */; };
+		2DF8B05F1FBD248200D38F4C /* CLEmoticonToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B04C1FBD248200D38F4C /* CLEmoticonToolBar.m */; };
+		2DF8B0601FBD248200D38F4C /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8B04D1FBD248200D38F4C /* Emoticons.bundle */; };
+		2DF8B0611FBD248200D38F4C /* CLEmoticonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B04E1FBD248200D38F4C /* CLEmoticonCell.m */; };
+		2DF8B0621FBD248200D38F4C /* CLEmoticonPaopaoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DF8B04F1FBD248200D38F4C /* CLEmoticonPaopaoView.xib */; };
+		2DF8B0631FBD248200D38F4C /* CLEmotionKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B0501FBD248200D38F4C /* CLEmotionKeyboard.m */; };
+		2DF8B0641FBD248200D38F4C /* CLComposeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B0541FBD248200D38F4C /* CLComposeButton.m */; };
+		2DF8B0651FBD248200D38F4C /* CLComposePictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B0551FBD248200D38F4C /* CLComposePictureView.m */; };
+		2DF8B0661FBD248200D38F4C /* CLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B0561FBD248200D38F4C /* CLTextView.m */; };
+		2DF8B0671FBD248200D38F4C /* CLComposeToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B0571FBD248200D38F4C /* CLComposeToolBar.m */; };
+		2DF8B0681FBD248200D38F4C /* CLComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B05B1FBD248200D38F4C /* CLComposeController.m */; };
+		2DF8B06F1FBD256700D38F4C /* UITextView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B06B1FBD256600D38F4C /* UITextView+Addition.m */; };
+		2DF8B0701FBD256700D38F4C /* UIBarButtonItem+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF8B06C1FBD256600D38F4C /* UIBarButtonItem+Addition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DF8B0241FBD243B00D38F4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DF8B0071FBD243B00D38F4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DF8B00E1FBD243B00D38F4C;
+			remoteInfo = ceshi2;
+		};
+		2DF8B02F1FBD243B00D38F4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DF8B0071FBD243B00D38F4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DF8B00E1FBD243B00D38F4C;
+			remoteInfo = ceshi2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DF8B00F1FBD243B00D38F4C /* ceshi2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceshi2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF8B0121FBD243B00D38F4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DF8B0141FBD243B00D38F4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DF8B0171FBD243B00D38F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DF8B0191FBD243B00D38F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DF8B01C1FBD243B00D38F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DF8B01E1FBD243B00D38F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF8B0231FBD243B00D38F4C /* ceshi2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshi2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF8B0271FBD243B00D38F4C /* ceshi2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceshi2Tests.swift; sourceTree = "<group>"; };
+		2DF8B0291FBD243B00D38F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF8B02E1FBD243B00D38F4C /* ceshi2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshi2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF8B0321FBD243B00D38F4C /* ceshi2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceshi2UITests.swift; sourceTree = "<group>"; };
+		2DF8B0341FBD243B00D38F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF8B0421FBD248200D38F4C /* CLComposePictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLComposePictureView.h; sourceTree = "<group>"; };
+		2DF8B0431FBD248200D38F4C /* CLComposeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLComposeButton.h; sourceTree = "<group>"; };
+		2DF8B0441FBD248200D38F4C /* CLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTextView.h; sourceTree = "<group>"; };
+		2DF8B0451FBD248200D38F4C /* CLComposeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLComposeView.m; sourceTree = "<group>"; };
+		2DF8B0461FBD248200D38F4C /* CLComposeToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLComposeToolBar.h; sourceTree = "<group>"; };
+		2DF8B0481FBD248200D38F4C /* CLEmoticonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLEmoticonCell.h; sourceTree = "<group>"; };
+		2DF8B0491FBD248200D38F4C /* CLEmotionKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLEmotionKeyboard.h; sourceTree = "<group>"; };
+		2DF8B04A1FBD248200D38F4C /* CLEmoticonPaopaoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLEmoticonPaopaoView.m; sourceTree = "<group>"; };
+		2DF8B04B1FBD248200D38F4C /* CLEmoticonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLEmoticonButton.m; sourceTree = "<group>"; };
+		2DF8B04C1FBD248200D38F4C /* CLEmoticonToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLEmoticonToolBar.m; sourceTree = "<group>"; };
+		2DF8B04D1FBD248200D38F4C /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		2DF8B04E1FBD248200D38F4C /* CLEmoticonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLEmoticonCell.m; sourceTree = "<group>"; };
+		2DF8B04F1FBD248200D38F4C /* CLEmoticonPaopaoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLEmoticonPaopaoView.xib; sourceTree = "<group>"; };
+		2DF8B0501FBD248200D38F4C /* CLEmotionKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLEmotionKeyboard.m; sourceTree = "<group>"; };
+		2DF8B0511FBD248200D38F4C /* CLEmoticonPaopaoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLEmoticonPaopaoView.h; sourceTree = "<group>"; };
+		2DF8B0521FBD248200D38F4C /* CLEmoticonToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLEmoticonToolBar.h; sourceTree = "<group>"; };
+		2DF8B0531FBD248200D38F4C /* CLEmoticonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLEmoticonButton.h; sourceTree = "<group>"; };
+		2DF8B0541FBD248200D38F4C /* CLComposeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLComposeButton.m; sourceTree = "<group>"; };
+		2DF8B0551FBD248200D38F4C /* CLComposePictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLComposePictureView.m; sourceTree = "<group>"; };
+		2DF8B0561FBD248200D38F4C /* CLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTextView.m; sourceTree = "<group>"; };
+		2DF8B0571FBD248200D38F4C /* CLComposeToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLComposeToolBar.m; sourceTree = "<group>"; };
+		2DF8B0581FBD248200D38F4C /* CLComposeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLComposeView.h; sourceTree = "<group>"; };
+		2DF8B05A1FBD248200D38F4C /* CLComposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLComposeController.h; sourceTree = "<group>"; };
+		2DF8B05B1FBD248200D38F4C /* CLComposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLComposeController.m; sourceTree = "<group>"; };
+		2DF8B0691FBD249A00D38F4C /* ceshiBridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ceshiBridging_Header.h; sourceTree = "<group>"; };
+		2DF8B06B1FBD256600D38F4C /* UITextView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Addition.m"; sourceTree = "<group>"; };
+		2DF8B06C1FBD256600D38F4C /* UIBarButtonItem+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Addition.m"; sourceTree = "<group>"; };
+		2DF8B06D1FBD256600D38F4C /* UIBarButtonItem+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Addition.h"; sourceTree = "<group>"; };
+		2DF8B06E1FBD256600D38F4C /* UITextView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Addition.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DF8B00C1FBD243B00D38F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF8B0201FBD243B00D38F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF8B02B1FBD243B00D38F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DF8B0061FBD243B00D38F4C = {
+			isa = PBXGroup;
+			children = (
+				2DF8B0111FBD243B00D38F4C /* ceshi2 */,
+				2DF8B0261FBD243B00D38F4C /* ceshi2Tests */,
+				2DF8B0311FBD243B00D38F4C /* ceshi2UITests */,
+				2DF8B0101FBD243B00D38F4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DF8B0101FBD243B00D38F4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DF8B00F1FBD243B00D38F4C /* ceshi2.app */,
+				2DF8B0231FBD243B00D38F4C /* ceshi2Tests.xctest */,
+				2DF8B02E1FBD243B00D38F4C /* ceshi2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DF8B0111FBD243B00D38F4C /* ceshi2 */ = {
+			isa = PBXGroup;
+			children = (
+				2DF8B06A1FBD256600D38F4C /* Extension */,
+				2DF8B0401FBD248200D38F4C /* Compose */,
+				2DF8B0121FBD243B00D38F4C /* AppDelegate.swift */,
+				2DF8B0141FBD243B00D38F4C /* ViewController.swift */,
+				2DF8B0161FBD243B00D38F4C /* Main.storyboard */,
+				2DF8B0191FBD243B00D38F4C /* Assets.xcassets */,
+				2DF8B01B1FBD243B00D38F4C /* LaunchScreen.storyboard */,
+				2DF8B01E1FBD243B00D38F4C /* Info.plist */,
+				2DF8B0691FBD249A00D38F4C /* ceshiBridging_Header.h */,
+			);
+			path = ceshi2;
+			sourceTree = "<group>";
+		};
+		2DF8B0261FBD243B00D38F4C /* ceshi2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2DF8B0271FBD243B00D38F4C /* ceshi2Tests.swift */,
+				2DF8B0291FBD243B00D38F4C /* Info.plist */,
+			);
+			path = ceshi2Tests;
+			sourceTree = "<group>";
+		};
+		2DF8B0311FBD243B00D38F4C /* ceshi2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DF8B0321FBD243B00D38F4C /* ceshi2UITests.swift */,
+				2DF8B0341FBD243B00D38F4C /* Info.plist */,
+			);
+			path = ceshi2UITests;
+			sourceTree = "<group>";
+		};
+		2DF8B0401FBD248200D38F4C /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				2DF8B0411FBD248200D38F4C /* View */,
+				2DF8B0591FBD248200D38F4C /* Controlelr */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		2DF8B0411FBD248200D38F4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DF8B0421FBD248200D38F4C /* CLComposePictureView.h */,
+				2DF8B0431FBD248200D38F4C /* CLComposeButton.h */,
+				2DF8B0441FBD248200D38F4C /* CLTextView.h */,
+				2DF8B0451FBD248200D38F4C /* CLComposeView.m */,
+				2DF8B0461FBD248200D38F4C /* CLComposeToolBar.h */,
+				2DF8B0471FBD248200D38F4C /* Emoticon */,
+				2DF8B0541FBD248200D38F4C /* CLComposeButton.m */,
+				2DF8B0551FBD248200D38F4C /* CLComposePictureView.m */,
+				2DF8B0561FBD248200D38F4C /* CLTextView.m */,
+				2DF8B0571FBD248200D38F4C /* CLComposeToolBar.m */,
+				2DF8B0581FBD248200D38F4C /* CLComposeView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DF8B0471FBD248200D38F4C /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				2DF8B0481FBD248200D38F4C /* CLEmoticonCell.h */,
+				2DF8B0491FBD248200D38F4C /* CLEmotionKeyboard.h */,
+				2DF8B04A1FBD248200D38F4C /* CLEmoticonPaopaoView.m */,
+				2DF8B04B1FBD248200D38F4C /* CLEmoticonButton.m */,
+				2DF8B04C1FBD248200D38F4C /* CLEmoticonToolBar.m */,
+				2DF8B04D1FBD248200D38F4C /* Emoticons.bundle */,
+				2DF8B04E1FBD248200D38F4C /* CLEmoticonCell.m */,
+				2DF8B04F1FBD248200D38F4C /* CLEmoticonPaopaoView.xib */,
+				2DF8B0501FBD248200D38F4C /* CLEmotionKeyboard.m */,
+				2DF8B0511FBD248200D38F4C /* CLEmoticonPaopaoView.h */,
+				2DF8B0521FBD248200D38F4C /* CLEmoticonToolBar.h */,
+				2DF8B0531FBD248200D38F4C /* CLEmoticonButton.h */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		2DF8B0591FBD248200D38F4C /* Controlelr */ = {
+			isa = PBXGroup;
+			children = (
+				2DF8B05A1FBD248200D38F4C /* CLComposeController.h */,
+				2DF8B05B1FBD248200D38F4C /* CLComposeController.m */,
+			);
+			path = Controlelr;
+			sourceTree = "<group>";
+		};
+		2DF8B06A1FBD256600D38F4C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2DF8B06B1FBD256600D38F4C /* UITextView+Addition.m */,
+				2DF8B06C1FBD256600D38F4C /* UIBarButtonItem+Addition.m */,
+				2DF8B06D1FBD256600D38F4C /* UIBarButtonItem+Addition.h */,
+				2DF8B06E1FBD256600D38F4C /* UITextView+Addition.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DF8B00E1FBD243B00D38F4C /* ceshi2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF8B0371FBD243B00D38F4C /* Build configuration list for PBXNativeTarget "ceshi2" */;
+			buildPhases = (
+				2DF8B00B1FBD243B00D38F4C /* Sources */,
+				2DF8B00C1FBD243B00D38F4C /* Frameworks */,
+				2DF8B00D1FBD243B00D38F4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ceshi2;
+			productName = ceshi2;
+			productReference = 2DF8B00F1FBD243B00D38F4C /* ceshi2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DF8B0221FBD243B00D38F4C /* ceshi2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF8B03A1FBD243B00D38F4C /* Build configuration list for PBXNativeTarget "ceshi2Tests" */;
+			buildPhases = (
+				2DF8B01F1FBD243B00D38F4C /* Sources */,
+				2DF8B0201FBD243B00D38F4C /* Frameworks */,
+				2DF8B0211FBD243B00D38F4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DF8B0251FBD243B00D38F4C /* PBXTargetDependency */,
+			);
+			name = ceshi2Tests;
+			productName = ceshi2Tests;
+			productReference = 2DF8B0231FBD243B00D38F4C /* ceshi2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DF8B02D1FBD243B00D38F4C /* ceshi2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF8B03D1FBD243B00D38F4C /* Build configuration list for PBXNativeTarget "ceshi2UITests" */;
+			buildPhases = (
+				2DF8B02A1FBD243B00D38F4C /* Sources */,
+				2DF8B02B1FBD243B00D38F4C /* Frameworks */,
+				2DF8B02C1FBD243B00D38F4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DF8B0301FBD243B00D38F4C /* PBXTargetDependency */,
+			);
+			name = ceshi2UITests;
+			productName = ceshi2UITests;
+			productReference = 2DF8B02E1FBD243B00D38F4C /* ceshi2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DF8B0071FBD243B00D38F4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "冷轶";
+				TargetAttributes = {
+					2DF8B00E1FBD243B00D38F4C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					2DF8B0221FBD243B00D38F4C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DF8B00E1FBD243B00D38F4C;
+					};
+					2DF8B02D1FBD243B00D38F4C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2DF8B00E1FBD243B00D38F4C;
+					};
+				};
+			};
+			buildConfigurationList = 2DF8B00A1FBD243B00D38F4C /* Build configuration list for PBXProject "ceshi2" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DF8B0061FBD243B00D38F4C;
+			productRefGroup = 2DF8B0101FBD243B00D38F4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DF8B00E1FBD243B00D38F4C /* ceshi2 */,
+				2DF8B0221FBD243B00D38F4C /* ceshi2Tests */,
+				2DF8B02D1FBD243B00D38F4C /* ceshi2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DF8B00D1FBD243B00D38F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF8B0621FBD248200D38F4C /* CLEmoticonPaopaoView.xib in Resources */,
+				2DF8B01D1FBD243B00D38F4C /* LaunchScreen.storyboard in Resources */,
+				2DF8B0601FBD248200D38F4C /* Emoticons.bundle in Resources */,
+				2DF8B01A1FBD243B00D38F4C /* Assets.xcassets in Resources */,
+				2DF8B0181FBD243B00D38F4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF8B0211FBD243B00D38F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF8B02C1FBD243B00D38F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DF8B00B1FBD243B00D38F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF8B05F1FBD248200D38F4C /* CLEmoticonToolBar.m in Sources */,
+				2DF8B0631FBD248200D38F4C /* CLEmotionKeyboard.m in Sources */,
+				2DF8B0151FBD243B00D38F4C /* ViewController.swift in Sources */,
+				2DF8B05D1FBD248200D38F4C /* CLEmoticonPaopaoView.m in Sources */,
+				2DF8B05E1FBD248200D38F4C /* CLEmoticonButton.m in Sources */,
+				2DF8B06F1FBD256700D38F4C /* UITextView+Addition.m in Sources */,
+				2DF8B0681FBD248200D38F4C /* CLComposeController.m in Sources */,
+				2DF8B0131FBD243B00D38F4C /* AppDelegate.swift in Sources */,
+				2DF8B05C1FBD248200D38F4C /* CLComposeView.m in Sources */,
+				2DF8B0651FBD248200D38F4C /* CLComposePictureView.m in Sources */,
+				2DF8B0611FBD248200D38F4C /* CLEmoticonCell.m in Sources */,
+				2DF8B0671FBD248200D38F4C /* CLComposeToolBar.m in Sources */,
+				2DF8B0661FBD248200D38F4C /* CLTextView.m in Sources */,
+				2DF8B0701FBD256700D38F4C /* UIBarButtonItem+Addition.m in Sources */,
+				2DF8B0641FBD248200D38F4C /* CLComposeButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF8B01F1FBD243B00D38F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF8B0281FBD243B00D38F4C /* ceshi2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF8B02A1FBD243B00D38F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF8B0331FBD243B00D38F4C /* ceshi2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DF8B0251FBD243B00D38F4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DF8B00E1FBD243B00D38F4C /* ceshi2 */;
+			targetProxy = 2DF8B0241FBD243B00D38F4C /* PBXContainerItemProxy */;
+		};
+		2DF8B0301FBD243B00D38F4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DF8B00E1FBD243B00D38F4C /* ceshi2 */;
+			targetProxy = 2DF8B02F1FBD243B00D38F4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DF8B0161FBD243B00D38F4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DF8B0171FBD243B00D38F4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DF8B01B1FBD243B00D38F4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DF8B01C1FBD243B00D38F4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DF8B0351FBD243B00D38F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DF8B0361FBD243B00D38F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DF8B0381FBD243B00D38F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MD54S42Z3;
+				INFOPLIST_FILE = ceshi2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ceshi2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ceshi2/ceshiBridging_Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DF8B0391FBD243B00D38F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MD54S42Z3;
+				INFOPLIST_FILE = ceshi2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ceshi2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/ceshi2/ceshiBridging_Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DF8B03B1FBD243B00D38F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MD54S42Z3;
+				INFOPLIST_FILE = ceshi2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ceshi2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceshi2.app/ceshi2";
+			};
+			name = Debug;
+		};
+		2DF8B03C1FBD243B00D38F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MD54S42Z3;
+				INFOPLIST_FILE = ceshi2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ceshi2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceshi2.app/ceshi2";
+			};
+			name = Release;
+		};
+		2DF8B03E1FBD243B00D38F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MD54S42Z3;
+				INFOPLIST_FILE = ceshi2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ceshi2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ceshi2;
+			};
+			name = Debug;
+		};
+		2DF8B03F1FBD243B00D38F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3MD54S42Z3;
+				INFOPLIST_FILE = ceshi2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.ceshi2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ceshi2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DF8B00A1FBD243B00D38F4C /* Build configuration list for PBXProject "ceshi2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF8B0351FBD243B00D38F4C /* Debug */,
+				2DF8B0361FBD243B00D38F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF8B0371FBD243B00D38F4C /* Build configuration list for PBXNativeTarget "ceshi2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF8B0381FBD243B00D38F4C /* Debug */,
+				2DF8B0391FBD243B00D38F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF8B03A1FBD243B00D38F4C /* Build configuration list for PBXNativeTarget "ceshi2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF8B03B1FBD243B00D38F4C /* Debug */,
+				2DF8B03C1FBD243B00D38F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF8B03D1FBD243B00D38F4C /* Build configuration list for PBXNativeTarget "ceshi2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF8B03E1FBD243B00D38F4C /* Debug */,
+				2DF8B03F1FBD243B00D38F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DF8B0071FBD243B00D38F4C /* Project object */;
+}
